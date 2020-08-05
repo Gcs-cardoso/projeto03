@@ -1,0 +1,108 @@
+.page{
+    width: 80%;
+    background-color: white;
+    position: relative;
+    border-radius: 18px;
+    
+}
+
+.event{
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.createEvent{
+    font-size: 100%;
+    height: 8vh;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.329) 4px 6px 4px 4px;
+    
+  
+}
+.lbl{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.inputNome{
+    border: none;
+    background-color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: none;
+}
+.desciption{
+    display: flex;
+    flex-direction: column;
+}
+.txtDesc{
+    margin-top: 2%;
+    border: 1px solid ;
+    border-color: transparentize($color: #000000, $amount: 0.8);
+    background-color: rgba(224, 217, 217, 0.178);
+
+}
+.lblDesc{
+    position: relative;
+    top:0;
+}
+.allRecipes{
+
+    height: max-content;
+    margin: 5% auto;
+    margin-bottom: 2%;
+    list-style: none;
+    padding: 0;
+    background-color: transparent;
+
+    
+}
+.ulistItems{
+
+        list-style: none;
+        display: flex;
+        background-color: transparentize($color: wheat, $amount: 0.85);
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+.listItem{  
+            margin: 2%;
+            padding: 0;
+            border-radius: 15px;
+            width: 44%;
+            min-width: 200px;
+            height: 25vh;
+            color: black;
+            background-color: transparentize($color: #ffffff, $amount: 0.89);
+            border: 5px solid  #DB7976;
+            
+            &:hover{
+               transform: translateY(-5px);
+               width:41%;
+               
+            }
+            .itembox{
+                display: grid;
+               padding: 0;
+               margin: 0; 
+            .divtitlebox{
+                color: rgb(255, 255, 255);
+                font-size: 3vh;
+                width: 100%;
+                background-color: #DB7976;
+                margin: 0;
+                padding: 0;
+                position: relative;
+                padding-bottom: 1vh;
+                
+                top: 0;
+            }
+        }
+        
+    }

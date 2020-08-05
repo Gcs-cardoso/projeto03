@@ -1,0 +1,52 @@
+.modal{
+    z-index: 1;
+    color: black;
+    width: 30em;
+    max-width: 90%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #C62929;
+    border-radius: 2.5vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+
+}
+.titulo{
+    background: #C62929;
+    color: rgb(255, 255, 255);
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 3ex;
+    padding-left: 3%;
+    border-top-left-radius: 2vh;
+    border-top-right-radius: 2vh;
+}
+.logo{
+    
+
+    background-color: chartreuse;
+    
+}
+.acoes{
+    position: relative;
+   // background-color: beige;
+    display: flex;
+    justify-content: flex-end;
+.btn{
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 20px;
+    padding: 1% 4%;
+    background-color:  rgb(200, 62, 49);
+    position: relative;
+    right: 5%;
+    margin: 1.5% 1%;
+    width: 22%;
+    &:hover{
+        background-color: rgb(155, 47, 37);
+        transform:translateY(-3px)
+
+    }
+}
+}

@@ -1,0 +1,42 @@
+.page{
+    width: 80%;
+    background-color: white;
+    position: relative;
+    border-radius: 18px;
+    
+}
+.listItem{  
+    margin: 2%;
+    padding: 0;
+    border-radius: 15px;
+    width: 44%;
+    min-width: 200px;
+    height: 25vh;
+    color: black;
+    background-color: transparentize($color: #ffffff, $amount: 0.89);
+    border: 5px solid  #DB7976;
+    
+    &:hover{
+       transform: translateY(-5px);
+       width:41%;
+       
+    }
+    .itembox{
+        display: grid;
+       padding: 0;
+       margin: 0; 
+    .divtitlebox{
+        color: rgb(255, 255, 255);
+        font-size: 3vh;
+        width: 100%;
+        background-color: #DB7976;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        padding-bottom: 1vh;
+        
+        top: 0;
+    }
+}
+
+}
